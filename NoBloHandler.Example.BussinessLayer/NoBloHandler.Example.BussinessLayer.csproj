@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NoBloHandler.Core.Abstractions\NoBloHandler.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\NoBloHandler.Example.DomainLayer\NoBloHandler.Example.DomainLayer.csproj" />
   </ItemGroup>
 
 </Project>

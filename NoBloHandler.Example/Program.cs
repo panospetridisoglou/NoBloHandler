@@ -3,10 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using NoBloHandler.Core;
 using NoBloHandler.Core.Abstractions;
 using NoBloHandler.Example.BussinessLayer;
+using NoBloHandler.Example.DomainLayer;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddSingleton<CustomersRepository>();
 builder.Services.AddNoBloHandlers(Assembly.GetAssembly(typeof(NoBloHandler.Example.BussinessLayer.GetCustomersRequest)));
 
 var app = builder.Build();
