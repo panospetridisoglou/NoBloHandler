@@ -1,0 +1,12 @@
+
+/.vs
+/NoBloHandler.Core/obj
+/NoBloHandler.Core.Abstractions/obj
+/NoBloHandler.Core/bin
+/NoBloHandler.Core.Abstractions/bin
+/NoBloHandler.Example.BussinessLayer/obj
+/NoBloHandler.Example.DomainLayer/obj
+/NoBloHandler.Example/bin
+/NoBloHandler.Example/obj
+/NoBloHandler/obj
+/NoBloHandler.Example.BussinessLayer/bin

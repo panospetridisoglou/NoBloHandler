@@ -1,0 +1,6 @@
+@NoBloHandler.Example_HostAddress = http://localhost:5211
+
+GET {{NoBloHandler.Example_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

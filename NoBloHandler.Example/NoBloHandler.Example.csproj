@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoBloHandler.Core.Abstractions\NoBloHandler.Core.Abstractions.csproj" />
+    <ProjectReference Include="..\NoBloHandler.Core\NoBloHandler.Core.csproj" />
+    <ProjectReference Include="..\NoBloHandler.Example.BussinessLayer\NoBloHandler.Example.BussinessLayer.csproj" />
+  </ItemGroup>
+
+</Project>
