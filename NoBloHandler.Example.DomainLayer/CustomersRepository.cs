@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NoBloHandler.Example.DomainLayer
 {
-	internal class CustomersRepository
+	public class CustomersRepository
 	{
+		public List<Customer> GetCustomers() {
+			return new List<Customer>();
+		}
 	}
 }

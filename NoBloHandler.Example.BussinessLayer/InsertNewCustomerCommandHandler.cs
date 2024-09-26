@@ -9,10 +9,10 @@ namespace NoBloHandler.Example.BussinessLayer
 {
 	public class InsertNewCustomerCommandHandler : INoBloHandler<InsertNewCustomerCommand, object>
 	{
-		public Task<object> HandleAsync(InsertNewCustomerCommand request, CancellationToken token)
+		public async Task<object> HandleAsync(InsertNewCustomerCommand request, CancellationToken token)
 		{
 			Console.WriteLine("Handling "+nameof(InsertNewCustomerCommand));
-			return null;
+			return await Task.FromResult(new object());
 		}
 	}
 }
