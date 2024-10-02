@@ -1,0 +1,1 @@
+﻿The basic abstractions of https://github.com/panospetridisoglou/NoBloHandler
