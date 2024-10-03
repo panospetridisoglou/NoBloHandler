@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NoBloHandler.Example.DomainLayer/1.0.0": {
+        "runtime": {
+          "NoBloHandler.Example.DomainLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NoBloHandler.Example.DomainLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
